@@ -1,0 +1,16 @@
+{
+  "name": "trav_api_json_server",
+  "version": "1.0.0",
+  "description": "Fake API using JSON-Server",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json --port 3004",
+    "json:server:remote": "json-server http://jsonplaceholder.typicode.com/db --port 3004",
+    "json:server:miint": "json-server --watch miint.json --port 3004"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.1"
+  }
+}
