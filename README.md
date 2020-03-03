@@ -50,3 +50,16 @@ full text search<br>
 http://localhost:3004/users?q=John
 
 
+Adding data with POST from Postman   <br>
+url: localhost:3004/equipment
+headers: Content-Type: application/json
+body sample:
+{
+	"id": "4",
+    "code": "HT-150",
+    "equipmentTypeId": "2"
+}
+
+
+
+
