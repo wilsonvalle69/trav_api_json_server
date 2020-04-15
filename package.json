@@ -6,7 +6,8 @@
   "scripts": {
     "json:server": "json-server --watch db.json --port 3004",
     "json:server:remote": "json-server http://jsonplaceholder.typicode.com/db --port 3004",
-    "json:server:miint": "json-server --watch miint.json --port 3004"
+    "json:server:miint": "json-server --watch miint.json --port 3004",
+    "json:server:placeholder": "json-server --watch placeholder.json --port 3004"
   },
   "author": "",
   "license": "ISC",
